@@ -28,9 +28,12 @@ namespace COMP123_S2016_Lesson4
             Chen.SaysHello();
             Chen.Studies();
 
+            Chen.Courses.Add(new Course("COMP123", "Programming 2"));
+
             Teacher Xie = new Teacher("Xie", 22, "1231735671");
             Xie.SaysHello();
             Xie.Teaches();
+            
         }
     }
 

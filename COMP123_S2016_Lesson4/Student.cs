@@ -17,7 +17,7 @@ namespace COMP123_S2016_Lesson4
     class Student : Person
     {
         private string _studentID;
-
+        private List<Course> _courses = new List<Course>();
 
         /**
          * <summary>
@@ -37,6 +37,18 @@ namespace COMP123_S2016_Lesson4
             set
             {
                 this._studentID = value;
+            }
+        }
+
+        public List<Course> Courses
+        {
+            get
+            {
+                return this._courses;
+            }
+            set
+            {
+                this._courses = value;
             }
         }
         /**
