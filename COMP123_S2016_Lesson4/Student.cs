@@ -39,17 +39,17 @@ namespace COMP123_S2016_Lesson4
                 this._studentID = value;
             }
         }
-            /**
-         * <summary>
-         * This constructor takes three parameters: name, age and studentID
-         * </summary>
-         * 
-         * @constructor Student
-         * @extends Person
-         * @param {string} name
-         * @param {int} age
-         * @param {string} studentID
-         */
+        /**
+     * <summary>
+     * This constructor takes three parameters: name, age and studentID
+     * </summary>
+     * 
+     * @constructor Student
+     * @extends Person
+     * @param {string} name
+     * @param {int} age
+     * @param {string} studentID
+     */
         public Student(string name, int age, string studentID)
             : base(name, age)
         {

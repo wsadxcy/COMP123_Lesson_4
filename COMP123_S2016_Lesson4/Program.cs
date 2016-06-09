@@ -22,11 +22,15 @@ namespace COMP123_S2016_Lesson4
         public static void Main(string[] args)
         {
             // create a new instance of the Student class
-            Student Chen = new Student();
+            Student Chen = new Student("Chen",22,"300709228");
             Chen.Age = 22;
             Chen.Name = "Chen";
             Chen.SaysHello();
+            Chen.Studies();
 
+            Teacher Xie = new Teacher("Xie", 22, "1231735671");
+            Xie.SaysHello();
+            Xie.Teaches();
         }
     }
 
